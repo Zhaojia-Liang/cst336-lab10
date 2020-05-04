@@ -19,10 +19,10 @@ app.set('view engine', 'ejs');
 
 /* Configure MySQL DBMS */
 const connection = mysql.createConnection({
-    host: 'us-cdbr-east-06.cleardb.net',
-    user: 'b7787b58425b44',
-    password: 'd2d2f83d',
-    database: 'heroku_2f43d7130f53084'
+    host: 'localhost',
+    user: 'zhaojia',
+    password: 'zhaojia',
+    database: 'lab10_db'
 });
 connection.connect();
 
